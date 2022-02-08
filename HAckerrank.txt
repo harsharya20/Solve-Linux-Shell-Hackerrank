@@ -1,3 +1,6 @@
+Easy
+
+
 1. Looping and Skipping
 
 for num in {1..100..2}
@@ -47,4 +50,30 @@ then
 echo "X is equal to Y"
 fi
 
-   
+
+5. Getting started with conditonals
+
+read ch
+if [ $ch = "Y" ] || [ $ch = "y" ];
+then
+echo YES
+else
+echo NO
+fi
+
+
+6. More on conditonals
+
+read a
+read b
+read c
+
+if [ $a = $b ] && [ $a = $c ] && [ $b = $c ];
+then
+echo "EQUILATERAL"
+elif [ $a = $b ] || [ $a = $c ] || [ $b = $c ];
+then
+echo "ISOSCELES"
+else
+echo "SCALENE"
+fi
