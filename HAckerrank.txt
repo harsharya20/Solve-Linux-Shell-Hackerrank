@@ -77,3 +77,9 @@ echo "ISOSCELES"
 else
 echo "SCALENE"
 fi
+
+
+7. Arithmatic operations (Medium)
+
+read num
+printf "%.3f\n" `echo $num | bc -l`
