@@ -1,5 +1,36 @@
-Comparing Numbers 
+1. Looping and Skipping
 
+for num in {1..100..2}
+do 
+echo "$num"
+done
+exit 0
+
+
+2. Looping with Numbers
+ 
+ for num in {1..50}
+do 
+echo "$num"
+done
+exit 0
+
+
+3. The World of Numbers
+
+read n1
+read n2
+sum=$(expr $n1 + $n2)
+sub=$(expr $n1 - $n2)
+mul=$(( n1 * n2 ))
+div=$(( n1 / n2 ))
+echo $sum
+echo $sub
+echo $mul
+echo $div
+
+
+4. Comparing Numbers 
 
 read X
 read Y
